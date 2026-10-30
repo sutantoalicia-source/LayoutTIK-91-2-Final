@@ -1,0 +1,102 @@
+/* List Section */
+.list-section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #F2F8F6;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+        'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Ordered List */
+ol {
+    margin-left: 25px;
+    padding-left: 20px;
+}
+
+/* Unordered List */
+ul {
+    margin-left: 25px;
+    padding-left: 20px;
+}
+
+/* List Items */
+li {
+    margin: 6px 0;
+    line-height: 1.5;
+}
+
+/* Nested Lists */
+ol ol,
+ol ul,
+ul ol,
+ul ul {
+    margin: 10px 30px;
+    padding: 10px 30px;
+    list-style-position: outside;
+}
+
+ol ol li,
+ol ul li,
+ul ol li,
+ul ul li {
+    margin: 8px 0;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: pink;
+    line-height: 1.5;
+}
+
+/* Icons */
+.icon-list {
+    list-style: none;
+}
+
+.icon-list li {
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.icon-list i {
+    display: inline-block;
+    width: 40px;
+    font-size: 30px;
+    margin-right: 10px;
+    color: #416B63;
+}
+
+.icon-list svg {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    fill: #416B63;
+}
+
+/* Nav fix: keep the nav the same as index.css */
+.topnav li {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+}
+
+/* Minuman & Icon list: same box style as the makanan list */
+ul.kotak {
+    border: 1px solid black;
+    background-color: bisque;
+    list-style-position: inside;
+    margin: 10px 10px 10px 25px;
+    padding: 15px 30px 15px 20px;
+}
+ul.kotak li {
+    border: 1px solid black;
+    background-color: pink;
+    padding: 5px;
+    margin: 6px 0;
+    line-height: 1.5;
+}
+/* make the icons small so the pink boxes aren't too tall */
+ul.kotak svg {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin: 0 8px;
+}

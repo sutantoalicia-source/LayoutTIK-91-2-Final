@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <tittle></tittle>
+        <link rel="stylesheet" href="sts_91_2.css">
+    </head>
+    <body>
+
+
+<div class="loading-screen">
+    <div class="loading-text">LOADING...</div>
+    <div class="beach-ball"></div>
+</div>
+
+        <!-- Membuat HEADER -->
+        <div class="header">
+            <h1>ALICIA.S</h1>
+        </div>
+
+        <!-- membuat nevigator menu -->
+        <div class="topnav">
+            <ul class="b">
+                <li><a href="index.html">Biodata</a></li>
+                <li><a href="table_marge.html">Table</a></li>
+                <li><a href="list.html">List</a></li>
+                <li><a href="sts_91_2.html">STS</a></li>
+            
+            </ul>
+        </div>
+
+
+<script>
+window.addEventListener("load", function() {
+    setTimeout(function() {
+        document.querySelector(".loading-screen").classList.add("hide");
+    }, 3000);
+});
+</script>
+
+
+<div class="judul">
+<div class="hiasan kiri">
+    <img src="Starfish.png">
+    <img src="Coco.png">
+</div>
+    <img src="Selamat.png" class="selamat">
+<div class="hiasan kanan">
+    <img src="Starfish.png">
+    <img src="Coco.png">
+    </div>
+</div>
+        <h2></h2>
+        <div class="background-foto">
+        <h1 class="labuan-title">𓇼⋆.˚𓆉 𓆝 𓆡 ⋆.˚𓇼LABUAN BAJO 𓇼⋆.˚𓆉 𓆝 𓆡 ⋆.˚𓇼</h1>
+
+        <div class="fotolokasi">
+            <div class="content">
+                <div class="fotoa">
+                    <img src="1" alt="foto 1" class="top">
+                    <img src="2" alt="foto 2" class="bottom">
+                </div>
+                    <div class="fotob">
+                    <img src="3" alt="foto 3" class="top">
+                    <img src="4" alt="foto 4" class="bottom">
+                </div>
+                    <div class="fotoc">
+                    <img src="5" alt="foto 5" class="top">
+                    <img src="6" alt="foto 6" class="bottom">
+                </div>
+                    <div class="fotod">
+                    <img src="7" alt="foto 7" class="top">
+                    <img src="8" alt="foto 8" class="bottom">
+                </div>
+                    <div class="fotoe">
+                    <img src="9.png" alt="foto 9" class="top">
+                    <img src="10.png" alt="foto 10" class="bottom">
+                </div>
+            </div>
+        </div>
+
+<script>
+const slider = document.querySelector('.fotolokasi');
+let isDown = false;
+let startX;
+let scrollLeft;
+slider.addEventListener('mousedown', (e) => {
+    isDown = true;
+    slider.style.cursor = 'grabbing';
+    startX = e.pageX - slider.offsetLeft;
+    scrollLeft = slider.scrollLeft;
+});
+slider.addEventListener('mouseleave', () => {
+    isDown = false;
+    slider.style.cursor = 'grab';
+});
+slider.addEventListener('mouseup', () => {
+    isDown = false;
+    slider.style.cursor = 'grab';
+});
+slider.addEventListener('mousemove', (e) => {
+    if (!isDown) return;
+    e.preventDefault();
+    const x = e.pageX - slider.offsetLeft;
+    const walk = (x - startX) * 2;
+    slider.scrollLeft = scrollLeft - walk;
+});
+</script>
+    
+            <h1>໋𓇼⋆.˚𓆉 𓆝 𓆡 ⋆.˚𓇼𓇼⋆.˚𓆉 𓆝 𓆡 ⋆.˚𓇼𓇼⋆.˚𓆉 𓆝 𓆡 ⋆.˚𓇼</h1>
+        </div>
+    </div>
+</div>
+
+
+
+
+<h2>Main Tourist Attractions for Food and Drinks</h2>
+<div class="lokasi">
+    <div class="Kampung">
+        <img src="Kampung location.png" alt="Kampung location" class="top">
+        <img src="Kampung.jpg" alt="Kampung" class="bottom">
+        <p>Kampung Ujung Night Market</p>
+    </div>
+        <div class="Paradise">
+            <img src="Paradise location.png" alt="Paradise location" class="top">
+            <img src="Paradise.jpg" alt="Paradise" class="bottom">
+            <p>Paradise Bar</p>
+    </div>
+        <div class="Better">
+            <img src="Better location.png" alt="Better location" class="top">
+            <img src="Better.jpg" alt="Better" class="bottom">
+            <p>Better days</p>
+    </div>
+        <div class="Green">
+            <img src="Green location.png" alt="Green location" class="top">
+            <img src="Green.jpg" alt="Green" class="bottom">
+            <p>Green Cherry</p>
+    </div>
+        <div class="La">
+            <img src="La location.png" alt="La location" class="top">
+            <img src="La.jpg" alt="La" class="bottom">
+            <p>La Cucina</p>
+    </div>
+    </div>
+
+
+<h1>໋𓇼⋆.˚𓆉 𓆝 𓆡 ⋆.˚𓇼𓇼⋆.˚𓆉 𓆝 𓆡 ⋆.˚𓇼𓇼⋆.˚𓆉 𓆝 𓆡 ⋆.˚𓇼</h1>
+<div class="penjelasana">
+    <div class="contenta">
+        <div class="imga">
+            <div class="flip">
+                <img src="img1.jpg" class="top">
+                <img src="img2.jpg" class="bottom">
+            </div>
+        </div>
+        <div class="isia">
+            <p>Labuan Bajo merupakan salah satu destinasi wisata terkenal di Indonesia yang terletak di bagian barat Pulau Flores, Nusa Tenggara Timur. Labuan Bajo dikenal sebagai pintu masuk menuju berbagai tempat wisata alam yang indah, terutama Taman Nasional Komodo. Daerah ini memiliki pemandangan laut yang menarik, pulau-pulau kecil, serta suasana tropis yang khas. Pengunjung dapat menikmati keindahan alam dengan melakukan berbagai kegiatan seperti snorkeling, menyelam, berkeliling menggunakan kapal, atau menikmati pemandangan matahari terbenam. Salah satu daya tarik utama Labuan Bajo adalah Taman Nasional Komodo yang menjadi tempat hidup komodo dan berbagai jenis hewan serta tumbuhan lainnya. Selain itu, terdapat banyak pulau dengan pemandangan yang berbeda-beda dan cocok untuk dikunjungi. Keindahan alam dan suasana yang tenang membuat Labuan Bajo menjadi tempat yang menarik bagi wisatawan. Tidak hanya memiliki keindahan alam, Labuan Bajo juga memiliki budaya lokal yang dapat dilihat melalui makanan, kerajinan, dan kehidupan masyarakat setempat. Dengan berbagai keunikan tersebut, Labuan Bajo menjadi salah satu tujuan wisata yang banyak diminati oleh wisatawan dari dalam maupun luar Indonesia. Keindahan alam yang beragam membuat Labuan Bajo menjadi tempat yang cocok untuk menikmati liburan sekaligus mengenal kekayaan alam Indonesia.</p>
+        </div>
+    </div>
+</div>
+
+<div class="penjelasanb">
+    <div class="contentb">
+        <div class="imgb">
+            <div class="flip">
+                <img src="img3.jpg" class="top">
+                <img src="img4.jpg" class="bottom">
+            </div>
+        </div>
+        <div class="isib">
+            <p>Di Labuan Bajo, terdapat banyak kegiatan menarik yang dapat dilakukan oleh wisatawan. Salah satu kegiatan yang populer adalah island hopping, yaitu mengunjungi beberapa pulau dalam satu perjalanan menggunakan kapal. Wisatawan juga dapat mengunjungi Pulau Padar untuk melihat pemandangan dari atas bukit yang memperlihatkan laut dan pulau-pulau di sekitarnya. Selain itu, wisatawan dapat mengunjungi Pulau Komodo atau Pulau Rinca untuk melihat komodo dari jarak yang aman dengan mengikuti aturan yang telah ditentukan. Bagi wisatawan yang ingin menikmati makanan, Labuan Bajo memiliki berbagai restoran dan tempat makan yang menyediakan makanan lokal maupun makanan lainnya. Pasar malam juga dapat menjadi pilihan untuk mencoba makanan dan melihat kehidupan masyarakat setempat. Labuan Bajo juga cocok untuk fotografi karena memiliki banyak pemandangan alam yang indah, mulai dari laut, pulau, bukit, hingga matahari terbenam. Saat berwisata, pengunjung juga perlu menjaga kebersihan dan kelestarian lingkungan agar keindahan alam Labuan Bajo tetap terjaga. Dengan banyaknya pilihan kegiatan tersebut, wisatawan dapat menikmati Labuan Bajo dengan cara yang beragam. Setiap kegiatan memberikan pengalaman yang berbeda sehingga wisatawan dapat memilih aktivitas sesuai dengan minat mereka.</p>
+        </div>
+    </div>
+</div>
+
+<div class="penjelasanc">
+    <div class="contentc">
+        <div class="imgc">
+            <div class="flip">
+                <img src="img5.jpg" class="top">
+                <img src="img6.jpg" class="bottom">
+            </div>
+        </div>
+        <div class="isic">
+            <p>Selain wisata alam dan berbagai kegiatan yang dapat dilakukan, Labuan Bajo juga memiliki kehidupan masyarakat dan budaya lokal yang menarik untuk dipelajari. Masyarakat setempat memiliki berbagai tradisi yang masih dijaga dan menjadi bagian dari kehidupan sehari-hari. Wisatawan dapat mengenal budaya tersebut melalui makanan tradisional, kerajinan tangan, serta kegiatan masyarakat. Kehadiran wisatawan juga memberikan kesempatan bagi masyarakat lokal untuk mengembangkan usaha dan memperkenalkan hasil daerah mereka. Selain itu, wisatawan dapat membeli berbagai kerajinan atau makanan khas sebagai bentuk dukungan terhadap usaha masyarakat setempat. Interaksi dengan masyarakat lokal juga dapat membuat wisatawan lebih memahami kehidupan dan kebiasaan yang ada di Labuan Bajo. Oleh karena itu, berwisata di Labuan Bajo tidak hanya memberikan pengalaman menikmati keindahan alam, tetapi juga kesempatan untuk mengenal kehidupan dan budaya masyarakat setempat. Dengan menghargai budaya dan kebiasaan masyarakat lokal, wisatawan dapat membantu menjaga keunikan Labuan Bajo agar tetap dikenal oleh generasi berikutnya.</p>
+        </div>
+    </div>
+</div>
+
+<h1>໋𓇼⋆.˚𓆉 𓆝 𓆡 ⋆.˚𓇼𓇼⋆.˚𓆉 𓆝 𓆡 ⋆.˚𓇼𓇼⋆.˚𓆉 𓆝 𓆡 ⋆.˚𓇼</h1>
+<div class="island-section">
+    <div class="island-box">
+        <h2>LABUAN BAJO ISLANDS</h2>
+        <div class="island-map">
+            <div class="island padar" onclick="spinAndOpen(this, 'padarPopup')">
+                <img src="Island.png" alt="Padar Island">
+                <p>Padar Island</p>
+            </div>
+            <div class="island rinca" onclick="spinAndOpen(this, 'rincaPopup')">
+                <img src="Island.png" alt="Rinca Island">
+                <p>Rinca Island</p>
+            </div>
+            <div class="island komodo" onclick="spinAndOpen(this, 'komodoPopup')">
+                <img src="Island.png" alt="Komodo Island">
+                <p>Komodo Island</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="padarPopup" class="popup">
+    <div class="popup-content">
+        <button class="close" onclick="closePopup('padarPopup')">&times;</button>
+        <h2>PADAR ISLAND</h2>
+        <img src="padar.jpg" alt="Padar Island" class="popup-image">
+        <p>Padar Island is famous for its beautiful hills, unique landscapes, and amazing views of the sea.</p>
+    </div>
+</div>
+
+<div id="rincaPopup" class="popup">
+    <div class="popup-content">
+        <button class="close" onclick="closePopup('rincaPopup')">&times;</button>
+        <h2>RINCA ISLAND</h2>
+        <img src="rica.jpg" alt="Rinca Island" class="popup-image">
+        <p>Rinca Island is known for its natural landscapes and is one of the places where visitors can see Komodo dragons.</p>
+    </div>
+</div>
+
+<div id="komodoPopup" class="popup">
+    <div class="popup-content">
+        <button class="close" onclick="closePopup('komodoPopup')">&times;</button>
+        <h2>KOMODO ISLAND</h2>
+        <img src="komodo.jpg" alt="Komodo Island" class="popup-image">
+        <p>Komodo Island is one of the main destinations in Komodo National Park and is famous for its Komodo dragons.</p>
+    </div>
+</div>
+<script>
+function spinAndOpen(island, popupID) {
+    var image = island.querySelector("img");
+    image.classList.remove("spin");
+    void image.offsetWidth;
+    image.classList.add("spin");
+    setTimeout(function() {
+        image.classList.remove("spin");
+        openPopup(popupID);
+    }, 600);
+}
+function openPopup(popupID) {
+    document.getElementById(popupID).style.display = "flex";
+}
+function closePopup(popupID) {
+    document.getElementById(popupID).style.display = "none";
+}
+</script>
+
+        <!-- Membuat Footer -->
+        <div class="footer">
+        <h2>91/02</h2>
+        </div>
+    </body>
+</html>

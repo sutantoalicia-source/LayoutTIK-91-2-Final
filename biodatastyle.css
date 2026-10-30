@@ -1,0 +1,1061 @@
+body{
+    background-image: url(background.jpg), url(background.jpg);
+    background-size: auto;
+    background-position: center;
+}
+
+h2{
+    color: black;
+    background-color: pink;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color: black;
+    background-color: palevioletred;
+    text-align: center;
+}
+
+.biodata{
+    margin: 30px auto;
+    width: 70%;
+    background-color:antiquewhite;
+    color:black;
+    padding: 30px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+div.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+div.foto{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid palevioletred;
+}
+
+div.foto img{
+    position: absolute;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+
+
+
+div.foto img.top{
+    opacity: 1;
+    z-index: 2;
+}
+div.foto:hover img.top{
+    opacity: 0;
+    transform: scale(1.1);
+}
+div.foto img.bottom{
+    opacity: 0;
+    z-index: 1;
+}
+div.foto:hover img.bottom{
+    opacity:1;
+    transform: scale(1.1);
+}
+div.makanan{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    text-align: center;
+}
+img{
+    padding: 10px;
+}
+
+div.Steak{
+    width:250px;
+    height:280px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(96, 56, 56, 0.985);
+    margin-bottom: 25px;
+    background-color: cornsilk;
+}
+div.Steak:hover{
+    overflow: hidden;
+    transition: transfrom 0.3s ease;
+    transform: scale(1.1);
+}
+img {
+  width: 200px;
+  height: 230px;
+}
+div.Sushi{
+    width:250px;
+    height:280px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(96, 56, 56, 0.985);
+    margin-bottom: 25px;
+    background-color:cornsilk;
+}
+div.Sushi:hover{
+    overflow: hidden;
+    transition: transfrom 0.3s ease;
+    transform: scale(1.1);
+}
+div.Ramen{
+    width:250px;
+    height:280px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(96, 56, 56, 0.985);
+    margin-bottom: 25px;
+    background-color:cornsilk;
+}
+div.Ramen:hover{
+    overflow: hidden;
+    transition: transfrom 0.3s ease;
+    transform: scale(1.1);
+}
+div.Samcan{
+    width:250px;
+    height:280px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(96, 56, 56, 0.985);
+    margin-bottom: 25px;
+    background-color:cornsilk;
+}
+div.Samcan:hover{
+    overflow: hidden;
+    transition: transfrom 0.3s ease;
+    transform: scale(1.1);
+}
+div.minuman{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    text-align: center;
+}
+img{
+    padding: 10px;
+}
+
+div.Boba{
+    width:250px;
+    height:280px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(96, 56, 56, 0.985);
+    margin-bottom: 25px;
+    background-color: cornsilk;
+}
+div.Boba:hover{
+    overflow: hidden;
+    transition: transfrom 0.3s ease;
+    transform: scale(1.1);
+}
+div.Latte{
+    width:250px;
+    height:280px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(96, 56, 56, 0.985);
+    margin-bottom: 25px;
+    background-color:cornsilk;
+}
+div.Latte:hover{
+    overflow: hidden;
+    transition: transfrom 0.3s ease;
+    transform: scale(1.1);
+}
+div.Macchiato{
+    width:250px;
+    height:280px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(96, 56, 56, 0.985);
+    margin-bottom: 25px;
+    background-color:cornsilk;
+}
+div.Macchiato:hover{
+    overflow: hidden;
+    transition: transfrom 0.3s ease;
+    transform: scale(1.1);
+}
+div.Hotchoco{
+    width:250px;
+    height:280px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(96, 56, 56, 0.985);
+    margin-bottom: 25px;
+    background-color:cornsilk;
+}
+div.Hotchoco:hover{
+    overflow: hidden;
+    transition: transfrom 0.3s ease;
+    transform: scale(1.1);
+}
+div.Hobi{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    text-align: center;
+}
+img{
+    padding: 10px;
+}
+
+div.Crochet{
+    width:250px;
+    height:280px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(96, 56, 56, 0.985);
+    margin-bottom: 25px;
+    background-color: cornsilk;
+}
+div.Crochet:hover{
+    overflow: hidden;
+    transition: transfrom 0.3s ease;
+    transform: scale(1.1);
+}
+div.Sewing{
+    width:250px;
+    height:280px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(96, 56, 56, 0.985);
+    margin-bottom: 25px;
+    background-color:cornsilk;
+}
+div.Sewing:hover{
+    overflow: hidden;
+    transition: transfrom 0.3s ease;
+    transform: scale(1.1);
+}
+div.Drawing{
+    width:250px;
+    height:280px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(96, 56, 56, 0.985);
+    margin-bottom: 25px;
+    background-color:cornsilk;
+}
+div.Drawing:hover{
+    overflow: hidden;
+    transition: transfrom 0.3s ease;
+    transform: scale(1.1);
+}
+div.Design{
+    width:250px;
+    height:280px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(96, 56, 56, 0.985);
+    margin-bottom: 25px;
+    background-color:cornsilk;
+}
+div.Design:hover{
+    overflow: hidden;
+    transition: transfrom 0.3s ease;
+    transform: scale(1.1);
+}
+div.Album{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    text-align: center;
+}
+img{
+    padding: 10px;
+}
+
+div.TTPD{
+    width:250px;
+    height:280px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(96, 56, 56, 0.985);
+    margin-bottom: 25px;
+    background-color: cornsilk;
+}
+div.TTPD:hover{
+    overflow: hidden;
+    transition: transfrom 0.3s ease;
+    transform: scale(1.1);
+}
+div.a1989{
+    width:250px;
+    height:280px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(96, 56, 56, 0.985);
+    margin-bottom: 25px;
+    background-color:cornsilk;
+}
+div.a1989:hover{
+    overflow: hidden;
+    transition: transfrom 0.3s ease;
+    transform: scale(1.1);
+}
+div.Red{
+    width:250px;
+    height:280px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(96, 56, 56, 0.985);
+    margin-bottom: 25px;
+    background-color:cornsilk;
+}
+div.Red:hover{
+    overflow: hidden;
+    transition: transfrom 0.3s ease;
+    transform: scale(1.1);
+}
+div.Guts{
+    width:250px;
+    height:280px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(96, 56, 56, 0.985);
+    margin-bottom: 25px;
+    background-color:cornsilk;
+}
+div.Guts:hover{
+    overflow: hidden;
+    transition: transfrom 0.3s ease;
+    transform: scale(1.1);
+}
+div.Film{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    text-align: center;
+}
+img{
+    padding: 10px;
+}
+
+div.Spiderman{
+    width:250px;
+    height:280px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(96, 56, 56, 0.985);
+    margin-bottom: 25px;
+    background-color: cornsilk;
+}
+div.Spiderman:hover{
+    overflow: hidden;
+    transition: transfrom 0.3s ease;
+    transform: scale(1.1);
+}
+div.Hailmary{
+    width:250px;
+    height:280px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(96, 56, 56, 0.985);
+    margin-bottom: 25px;
+    background-color:cornsilk;
+}
+div.Hailmary:hover{
+    overflow: hidden;
+    transition: transfrom 0.3s ease;
+    transform: scale(1.1);
+}
+div.Wintersoldier{
+    width:250px;
+    height:280px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(96, 56, 56, 0.985);
+    margin-bottom: 25px;
+    background-color:cornsilk;
+}
+div.Wintersoldier:hover{
+    overflow: hidden;
+    transition: transfrom 0.3s ease;
+    transform: scale(1.1);
+}
+div.Cruella{
+    width:250px;
+    height:280px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(96, 56, 56, 0.985);
+    margin-bottom: 25px;
+    background-color:cornsilk;
+}
+div.Cruella:hover{
+    overflow: hidden;
+    transition: transfrom 0.3s ease;
+    transform: scale(1.1);
+}
+
+
+
+body {
+  margin: 0;
+  overflow-x: hidden; /* Prevents scrollbars as petals fall past the viewport */
+}
+
+/* Container spanning the entire viewport */
+.petal-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none; /* Allows users to click elements underneath */
+}
+
+/* Base styling for each petal */
+.petal {
+  position: absolute;
+  top: -20px; /* Start just above the visible screen */
+  width: 15px;
+  height: 20px;
+  background: linear-gradient(135deg, #ffb7c5, #ff8da1);
+  border-radius: 0% 70% 40% 70%; /* Gives it an organic leaf/petal shape */
+  opacity: 0.8;
+  
+  /* Apply the falling animation */
+  animation: fall 8s linear infinite;
+}
+
+/* Keyframes for the falling and swaying motion */
+@keyframes fall {
+  0% {
+    top: -20px;
+    transform: translateX(0) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1; /* Fade in quickly as it enters the screen */
+  }
+  90% {
+    opacity: 1; /* Stay visible most of the way down */
+  }
+  100% {
+    top: 100vh; /* Move past the bottom of the screen */
+    /* Sway horizontally and spin on the way down */
+    transform: translateX(120px) rotate(450deg); 
+    opacity: 0; /* Fade out right at the bottom */
+  }
+}
+
+.petal:nth-child(1) { left: 10%; width: 18px; height: 24px; animation-duration: 7s; animation-delay: 0s; }
+.petal:nth-child(2) { left: 25%; width: 12px; height: 16px; animation-duration: 10s; animation-delay: 1s; }
+.petal:nth-child(3) { left: 40%; width: 15px; height: 20px; animation-duration: 8s; animation-delay: 3s; }
+.petal:nth-child(4) { left: 55%; width: 14px; height: 19px; animation-duration: 6s; animation-delay: 1.5s; }
+.petal:nth-child(5) { left: 70%; width: 20px; height: 26px; animation-duration: 9s; animation-delay: 4s; }
+.petal:nth-child(6) { left: 85%; width: 11px; height: 15px; animation-duration: 11s; animation-delay: 2s; }
+.petal:nth-child(7) { left: 15%; width: 16px; height: 21px; animation-duration: 8.5s; animation-delay: 5s; }
+.petal:nth-child(8) { left: 45%; width: 13px; height: 18px; animation-duration: 7.5s; animation-delay: 0.5s; }
+.petal:nth-child(9) { left: 65%; width: 17px; height: 23px; animation-duration: 9.5s; animation-delay: 2.5s; }
+.petal:nth-child(10) { left: 90%; width: 15px; height: 20px; animation-duration: 6.5s; animation-delay: 6s; }
+.petal:nth-child(11) { left: 10%; width: 18px; height: 24px; animation-duration: 7s; animation-delay: 0s; }
+.petal:nth-child(12) { left: 25%; width: 12px; height: 16px; animation-duration: 10s; animation-delay: 1s; }
+.petal:nth-child(13) { left: 40%; width: 15px; height: 20px; animation-duration: 8s; animation-delay: 3s; }
+.petal:nth-child(14) { left: 55%; width: 14px; height: 19px; animation-duration: 6s; animation-delay: 1.5s; }
+.petal:nth-child(15) { left: 70%; width: 20px; height: 26px; animation-duration: 9s; animation-delay: 4s; }
+.petal:nth-child(16) { left: 85%; width: 11px; height: 15px; animation-duration: 11s; animation-delay: 2s; }
+.petal:nth-child(17) { left: 15%; width: 16px; height: 21px; animation-duration: 8.5s; animation-delay: 5s; }
+.petal:nth-child(18) { left: 45%; width: 13px; height: 18px; animation-duration: 7.5s; animation-delay: 0.5s; }
+.petal:nth-child(19) { left: 65%; width: 17px; height: 23px; animation-duration: 9.5s; animation-delay: 2.5s; }
+.petal:nth-child(20) { left: 90%; width: 15px; height: 20px; animation-duration: 6.5s; animation-delay: 6s; }
+
+
+
+
+/* spotify album*/
+
+.spotify-section {
+    width: 90%;
+    max-width: 1400px;
+    margin: 40px auto;
+    background-color: #29435a;
+    border-radius: 20px;
+    overflow: hidden;
+    color: white;
+}
+
+
+/* top part */
+
+.spotify-header {
+    height: 180px;
+    padding: 25px 35px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    background: linear-gradient(
+        135deg,
+        #526b82,
+        #3c556c
+    );
+
+    position: relative;
+}
+
+
+/* Album cover */
+
+.spotify-cover {
+    width: 180px;
+    height: 180px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.spotify-cover img {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    object-fit: cover;
+}
+
+
+/* Album info */
+
+.spotify-info h1 {
+    background: none;
+    color: white;
+    text-align: left;
+    font-size: 30px;
+    margin: 5px 0;
+}
+
+.spotify-info h3 {
+    color: #c9d8e6;
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.preview {
+    display: inline-block;
+    background-color: #173c58;
+    color: white;
+    padding: 3px 7px;
+    margin: 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+/* save */
+
+.spotify-save {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 12px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.plus {
+    width: 25px;
+    height: 25px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Logo */
+
+.spotify-logo {
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    color: #29435a;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Controls */
+
+.music-controls {
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    padding: 0 30px;
+    background-color: #29435a;
+}
+
+.music-controls button {
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.music-controls .play-button {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    color: #172a3b;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+
+/* Scrollable list */
+
+.song-list {
+    height: 250px;
+    overflow-y: auto;
+    padding: 5px 20px 15px;
+    background-color: #2f475d;
+}
+
+
+/* Scroll bar */
+
+.song-list::-webkit-scrollbar {
+    width: 8px;
+}
+
+.song-list::-webkit-scrollbar-track {
+    background: #335069;
+}
+
+.song-list::-webkit-scrollbar-thumb {
+    background-color: #8298aa;
+    border-radius: 10px;
+}
+
+.song-list::-webkit-scrollbar-thumb:hover {
+    background-color: #ffb7c5;
+}
+
+
+/* lagu */
+
+.song {
+    min-height: 55px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.song:hover {
+    background-color: #3d566d;
+}
+
+
+/* No */
+
+.number {
+    width: 25px;
+    color: #b9cad9;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+/* Song name */
+.song-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 3px;
+}
+
+.song-info strong {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.song-info small {
+    color: #b7c9d9;
+    font-size: 13px;
+}
+
+/* waktu */
+.duration {
+    color: #d7e0e8;
+
+    font-size: 14px;
+}
+
+
+
+/* Load screen */
+.loading-screen {
+    position: fixed;
+    inset: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: #ffe6ed;
+
+    display: grid;
+    place-items: center;
+
+    z-index: 99999;
+
+    animation: loading-fade 1s ease 3s forwards;
+}
+
+
+/* load vinyl */
+.loading-screen .vinyl-record {
+    width: 230px;
+    height: 230px;
+    position: relative;
+    border-radius: 50%;
+    background:
+        repeating-radial-gradient(
+            circle,
+            #111 0px,
+            #111 2px,
+            #292929 3px,
+            #111 4px
+        );
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+    animation: loading-vinyl-spin 2s linear infinite;
+}
+
+
+/* vinyl groove */
+
+.loading-screen .vinyl-record::before {
+    content: "";
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    top: 20px;
+    left: 20px;
+    border-radius: 50%;
+    border: 1px solid #444;
+}
+
+
+/* pink center label */
+
+.loading-screen .vinyl-record .vinyl-label {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    Background-color: #d96b8a;
+    z-index: 2;
+}
+
+
+/* center hole */
+
+.loading-screen .vinyl-record .vinyl-hole {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color: #ffe6ed;
+    z-index: 3;
+}
+
+
+/* loading text */
+
+.loading-screen p {
+    position: absolute;
+    top: calc(50% + 140px);
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #333;
+    white-space: nowrap;
+}
+
+
+/* loading vinyl spin */
+
+@keyframes loading-vinyl-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* loading screen dissapears */
+
+@keyframes loading-fade {
+    from {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+
+
+
+
+/* ALBUM FAVORITE */
+
+.Album {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+
+/* album */
+
+.TTPD,
+.a1989,
+.Red,
+.Guts {
+    width: 250px;
+    height: 330px;
+    position: relative;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(96, 56, 56, 0.985);
+    margin-bottom: 25px;
+    background-color: cornsilk;
+    overflow: hidden;
+    text-align: center;
+}
+
+.TTPD > p,
+.a1989 > p,
+.Red > p,
+.Guts > p {
+    margin: 10px 0 0 0;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    color: black;
+}
+
+/* Album images */
+
+.TTPD img,
+.a1989 img,
+.Red img,
+.Guts img {
+    width: 200px;
+    height: 230px;
+    padding: 10px;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+}
+
+
+/* album vinyl */
+
+.album-vinyl {
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%) scale(0.6);
+    border-radius: 50%;
+    opacity: 0;
+    pointer-events: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+
+    background:
+        repeating-radial-gradient(
+            circle,
+            var(--dark) 0px,
+            var(--dark) 2px,
+            var(--light) 3px,
+            var(--dark) 5px
+        );
+
+    transition: opacity 0.3s ease;
+}
+
+
+/* Vinyl label */
+
+.album-vinyl .vinyl-label {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color: var(--label);
+}
+
+
+/* Vinyl hole */
+
+.album-vinyl .vinyl-hole {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color: #f8e8e8;
+}
+
+
+/* Album color */
+
+.vinyl-ttpd {
+    --dark: #444444;
+    --light: #777777;
+    --label: #777777;
+}
+
+.vinyl-1989 {
+    --dark: #315f7c;
+    --light: #76a9c7;
+    --label: #76a9c7;
+}
+
+.vinyl-red {
+    --dark: #681c22;
+    --light: #ad3942;
+    --label: #ad3942;
+}
+
+.vinyl-guts {
+    --dark: #49315f;
+    --light: #80639a;
+    --label: #80639a;
+}
+
+
+/* hover */
+
+.TTPD:hover img,
+.a1989:hover img,
+.Red:hover img,
+.Guts:hover img {
+    opacity: 0;
+}
+
+
+.TTPD:hover .album-vinyl,
+.a1989:hover .album-vinyl,
+.Red:hover .album-vinyl,
+.Guts:hover .album-vinyl {
+    opacity: 1;
+
+    animation:
+        album-vinyl-appear 0.3s ease forwards,
+        album-vinyl-spin 1.5s linear 0.3s infinite;
+}
+
+
+/* vinyl appear */
+
+@keyframes album-vinyl-appear {
+    from {
+        transform: translateX(-50%) scale(0.6);
+    }
+
+    to {
+        transform: translateX(-50%) scale(1);
+    }
+}
+
+
+/* Vinyl spin */
+
+@keyframes album-vinyl-spin {
+    from {
+        transform: translateX(-50%) scale(1) rotate(0deg);
+    }
+
+    to {
+        transform: translateX(-50%) scale(1) rotate(360deg);
+    }
+}
+
+
+
+
+/* final fixed */
+
+.TTPD,
+.a1989,
+.Red,
+.Guts {
+    position: relative;
+    width: 250px;
+    height: 330px;
+    background-color: cornsilk;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(96, 56, 56, 0.985);
+    text-align: center;
+    overflow: hidden;
+}
+
+
+/* judul album */
+
+.TTPD > p,
+.a1989 > p,
+.Red > p,
+.Guts > p {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+
+/* Center vinyl */
+
+.TTPD .album-vinyl,
+.a1989 .album-vinyl,
+.Red .album-vinyl,
+.Guts .album-vinyl {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
