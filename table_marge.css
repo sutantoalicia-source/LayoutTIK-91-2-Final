@@ -1,4 +1,5 @@
 
+/* Original CSS */
 table, th, td{
     border: 1px solid black;
 }
@@ -27,4 +28,14 @@ tr:nth-child(even){
 
 tr:hover{
     background-color: pink;
+}
+
+/* Individual hover effect for Table Marge */
+#margeTable th {
+    transition: background-color 0.2s;
+}
+
+#margeTable th:hover {
+    background-color: pink;
+    cursor: pointer;
 }
